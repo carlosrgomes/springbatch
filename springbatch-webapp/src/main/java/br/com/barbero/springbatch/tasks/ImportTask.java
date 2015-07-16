@@ -1,4 +1,4 @@
-package br.com.barbero.springbatch.service;
+package br.com.barbero.springbatch.tasks;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -17,12 +17,12 @@ import org.springframework.batch.core.repository.JobRestartException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.scheduling.annotation.Scheduled;
-import org.springframework.stereotype.Service;
+import org.springframework.stereotype.Component;
 
-@Service
-public class ImportService {
+@Component
+public class ImportTask {
 	
-	private Log logger = LogFactory.getLog(ImportService.class);
+	private Log logger = LogFactory.getLog(ImportTask.class);
 
 	
 	@Autowired
