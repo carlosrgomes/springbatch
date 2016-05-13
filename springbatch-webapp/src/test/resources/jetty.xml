@@ -20,7 +20,7 @@
 
 	<New class="org.eclipse.jetty.plus.jndi.EnvEntry">
 		<Arg></Arg>
-		<Arg>nb/sulamerica_env</Arg>
+		<Arg>nb/variavel</Arg>
 		<Arg type="java.lang.String">LOCAL</Arg>
 		<Arg type="boolean">false</Arg>
 	</New>
